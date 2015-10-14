@@ -1,14 +1,14 @@
 # jquery-equalheights
 Equal heights jQuery Plugin by Gijs Oliemans, Status201
 
-## Description
+## What does it do?
 Little jQuery plugin to "vertically align elements" by stretching their height to match the tallest.
 Only elements that live exactly at the same height in the document will be maximised to the same height.
 This way 2 rows can vertically align nicely while having different heights.
 
 ## Options
 | Option        | Possible values | Default |
-| ------------- |:---------------:| -------:|
+| :------------ |:---------------:| -------:|
 | onLoad        | true / false    | true    |
 | onResize      | true / false    | true    |
 
