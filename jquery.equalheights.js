@@ -3,7 +3,7 @@
  * @version 1.02
  * @requires jQuery 1.7+
  * @author Gijs Oliemans <gijs[at]status201.nl>
- * @since feb 2012
+ * @license MIT
  */
 
 (function( $ ) {
