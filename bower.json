@@ -1,0 +1,29 @@
+{
+  "name": "jquery-equalheights",
+  "description": "Equal heights for elements on the same row jQuery plugin",
+  "main": "jquery.equalheights.min.js",
+  "authors": [
+    "Gijs Oliemans <gijs@status201.nl> (http://dev201.nl/)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "equal-heights",
+    "match",
+    "heights",
+    "equal",
+    "heights"
+  ],
+  "homepage": "https://github.com/status201/jquery-equalheights",
+  "moduleType": [
+    "globals"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -6,6 +6,28 @@ Little jQuery plugin to "vertically align elements" by stretching their height t
 Only elements that live exactly at the same height in the document will be maximised to the same height.
 This way 2 rows can vertically align nicely while having different heights.
 
+## Install
+Download either the [production version](https://github.com/status201/jquery-equalheights/blob/master/jquery.equalheights.min.js) or the [development version](https://github.com/status201/jquery-equalheights/blob/master/jquery.equalheights.js) of jquery-equalheights.
+
+In your web page:
+```html
+<!-- include jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<!-- include jQuery Equal Heights -->
+<script src="http://path/to/your/copy/of/jquery.equalheights.min.js"></script>
+<script>
+$( document ).ready(function() {
+    $('.elements-with-different-heights').equalHeights();
+});
+</script>
+```
+
+## Bower
+To install jquery-equalheights via Bower:
+```
+bower install jquery-equal-heights
+```
+
 ## Options
 | Option        | Possible values | Default |
 | :------------ |:---------------:| -------:|
