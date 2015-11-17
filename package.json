@@ -1,6 +1,6 @@
 {
   "name": "jquery-equalheights",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Equal heights for elements on the same row jQuery plugin",
   "main": "jquery.equalheights.min.js",
   "scripts": {
