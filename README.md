@@ -1,5 +1,5 @@
 # jquery-equalheights
-Equal heights jQuery Plugin by Gijs Oliemans, Status201 [Web Development](https://status201.nl)
+Equal heights jQuery Plugin by Gijs Oliemans, Status201 [Web Development](http://status201.nl)
 
 ## What does it do?
 Little jQuery plugin to "vertically align elements" by stretching their height to match the tallest.
