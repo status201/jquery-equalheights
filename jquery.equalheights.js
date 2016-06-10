@@ -52,7 +52,7 @@
 				if(!foundPosition) {
 					// First at this position, only store and set height
 					topPositions[topPosition] = curHeight;
-					// $el.height(topPositions[topPosition]); // Don't set height for the first (possibly only) element on this position
+					$el.height(topPositions[topPosition]);
 				} else {
 					if(curHeight > topPositions[topPosition]) {
 						// Tallest so far for this position, remember tallest and stretch others on this position
