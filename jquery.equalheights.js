@@ -1,6 +1,6 @@
 /**
  * Equal heights little jQuery plugin by Status201
- * @version 1.0.5
+ * @version 1.0.6
  * @requires jQuery 1.7+
  * @author Gijs Oliemans <gijs[at]status201.nl>
  * @license MIT
