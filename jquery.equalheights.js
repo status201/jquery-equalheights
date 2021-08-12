@@ -1,7 +1,7 @@
 /**
  * Equal heights little jQuery plugin by Status201
- * @version 1.0.6
- * @requires jQuery 1.7+
+ * @version 1.0.7
+ * @requires jQuery 1.8+
  * @author Gijs Oliemans <gijs[at]status201.nl>
  * @license MIT
  */
@@ -35,9 +35,9 @@
 		};
 
 		if ( settings.onLoad ) {
-			$( window ).load(function() {
+			$( window ).on('load',(function() {
 				$elements.equalHeights( { onResize: false, onLoad: false } );
-			});
+			}));
 		}
 	 
 		$elements.each(function() {
